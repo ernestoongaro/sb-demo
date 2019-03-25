@@ -97,7 +97,7 @@ view: events {
     sql: ${TABLE}."uri" ;;
     link: {
       url: "{{value}}"
-      label: "real label"
+      label: "real label {{value}}"
     }
   }
 
